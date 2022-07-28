@@ -1,0 +1,247 @@
+*{
+    font-family: 'Raleway'
+}
+
+#bg-image{
+    background-image: linear-gradient( to right, rgba(174,96,213,0.4),rgba(138,101,238,0.6)), url(/images/pexels-photo.jpeg); 
+    height: 95vh; 
+    background-repeat: no-repeat; 
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 30px;
+    
+}
+.navbar{
+    border: none;
+    border-radius: 50px;
+    padding: 1rem;
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.navbar-toggler{
+    outline: none;
+    border: none;
+}
+
+.bg-content{
+    margin-top: 120px;
+    text-align: center;
+}
+.text{
+    font-size: 18px;
+}
+.bg-btn{
+    border-radius: 30px;
+    background-color: #ac2a51;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+}
+
+.card{
+    text-align: center;
+    border: none;
+    box-shadow: 2px 2px 9px rgb(192, 192, 192);
+    border-radius: 20px;
+    font-size: 14px
+}
+
+.card:hover .image-div{
+    background-color: rgb(255, 0, 212);
+}
+
+.image-div{
+    background-color: #895aa8;
+    width: 22%;
+    margin: 2rem auto;
+    border-radius: 50%;
+    padding: 16px 16px;
+    display: no;
+}
+
+.bg-image{
+    background-image:linear-gradient(to right, rgba(174,96,213,0.4),rgba(138,101,238,0.6)), url(/images/pexels-photo.jpeg); 
+    background-repeat: no-repeat; 
+    background-size:cover;
+    background-position: center;
+    padding-top: 30px;
+    background-attachment: fixed;
+}
+.card2{
+    padding: 1rem;
+    background-color: #fff;
+    text-align: center;
+    border: none;
+    margin-bottom: 1.5rem;
+    box-shadow: 6px 6px 1px rgb(207, 207, 207, .3);
+    border-radius: 20px;
+    font-size: 14px;
+    gap: 2rem;
+}
+.card3{
+    padding: 1rem;
+    background-color: #fff;
+    text-align: center;
+    border: none;
+    box-shadow: 1px 1px 6px rgb(207, 202, 202);
+    border-radius: 20px;
+    font-size: 14px;
+    margin-bottom: 3rem;
+}
+.card3img{
+    margin: 2rem 0;
+}
+.card3 p{
+    color: rgb(126, 126, 126);
+}
+.bg-sec{
+    background-color: #e3e9ee;
+    text-align: center;
+    padding: 4.5rem 0 60px 0;
+}
+.workprocess{
+    font-size: 14px;
+    width: 47%;
+    margin: 2rem auto 3rem auto;
+    padding: 10px;
+}
+.pricebtn{
+    background-color: rgb(104, 66, 207); 
+    border: none;
+    border-radius: 20px;
+    margin: 2rem 0;
+    padding: 8px 10px;
+    color: #fff;
+}
+.pricebtn p{
+    color: #fff;
+}
+.hero{
+   text-decoration: line-through;
+}
+.pricebtn2{
+    background-color: rgb(204, 71, 144); 
+    border: none;
+    border-radius: 20px;
+    margin: 2rem 0;
+    padding: 8px 10px;
+    color: #fff;
+}
+.pricebtn2 p{
+    color: #fff;
+}
+.purchase-btn{
+    background-color: rgb(138,101,238); 
+    text-decoration: none;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 2rem;
+    color: #fff;
+    margin: 5rem auto;
+}
+.background{
+    background-image: linear-gradient( to right, rgba(188, 68, 248, 0.7),rgba(138,101,238,0.9)), url(/images/villian.jpg); 
+    background-repeat: no-repeat; 
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 80px;
+}
+
+.blog{
+    gap: 7rem;
+}
+
+.blogimg{
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.blogimg img{
+    transition: .5s;
+}
+
+.blogimg:hover img{
+    transform: scale(1.2);
+}
+
+.readmorebtn{
+    text-decoration: none;
+    background-color: #6f45bd;
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 8px 20px;
+    margin-top: 9rem;
+    color: #fff;
+}
+.form-house{
+    background-color: #e3e9ee;
+    padding: 2rem;
+}
+.mt-3{
+    font-size: 13px;
+}
+.form{
+    margin: 3rem 10px;
+    width: 30%;
+}
+.control{
+    border: none;
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 14px;
+    width: 49%;
+}
+.base-text{
+    margin: 1.5rem 1px;
+    font-size: 14px;
+    width: 70%;
+}
+.base-text1{
+    margin: 1.5rem 1px;
+    font-size: 14px;
+}
+.form-control{
+    border: none;
+    margin-top: 2rem;
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 14px;
+}
+.sendmsgbtn{
+    text-decoration: none;
+    background-color: #6f45bd;
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 8px 20px;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+}
+
+.base a{
+    text-decoration: none;
+}
+
+.base i{
+
+    color: #895aa8;
+    background-color: #fff;
+    padding: 9px;
+    border-radius: 50%;
+    height: 5%;
+    width: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.base{
+    background-color: #895aa8;
+    padding: 3rem ;
+}
+
+.base-text2{
+    margin: 1.5rem 0;
+    font-size: 14px;
+}
